@@ -1,0 +1,10 @@
+[workspace]
+members = [
+    "src/cmd",
+    "src/common",
+    "src/frontend",
+    "src/meta",
+    "src/query",
+    "src/storage",
+    "src/table",
+]
