@@ -1,7 +1,7 @@
 [workspace]
 members = [
     "src/cmd",
-    "src/common",
+    "src/common/error",
     "src/frontend",
     "src/meta",
     "src/query",
