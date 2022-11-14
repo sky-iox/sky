@@ -5,6 +5,7 @@ members = [
     "src/frontend",
     "src/meta",
     "src/query",
+    "src/servers",
     "src/storage",
     "src/table",
 ]
