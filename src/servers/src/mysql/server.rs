@@ -63,3 +63,14 @@ impl Server for MysqlServer {
         Ok(())
     }
 }
+
+#[cfg(test)]
+mod tests {
+    use crate::{server::Server, MysqlServer};
+
+    #[tokio::test]
+    async fn test() {
+        let mut server = MysqlServer::new();
+        server.start("0.0.0.0:3001".parse().unwrap()).await.unwrap();
+    }
+}
